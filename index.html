@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.2.0/css/glide.core.css"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section class="top-section">
+      <div class="image-container">
+        <img src="img/header.png" alt="header image" class="head-img" />
+      </div>
+    </section>
+    <section class="middle-section">
+      <div class="flexbox-container">
+        <div class="photo-button-container">
+          <img src="img/section2-1.png" alt="Flexbox photo 1" class="photo" />
+          <h2 class="title">TEXT</h2>
+        </div>
+        <div class="photo-button-container">
+          <img src="img/section2-2.png" alt="Flexbox photo 2" class="photo" />
+          <h2 class="title">GLIDE</h2>
+        </div>
+        <div class="photo-button-container">
+          <img src="img/section2-3.png" alt="Flexbox photo 3" class="photo" />
+          <h2 class="title">MAGNETIC CORE ROBIN</h2>
+        </div>
+        <div class="photo-button-container">
+          <img src="img/section2-4.png" alt="Flexbox photo 4" class="photo" />
+          <h2 class="title">PREMIUM STABILIZER</h2>
+        </div>
+        <div class="photo-button-container">
+          <img src="img/section2-5.png" alt="Flexbox photo 5" class="photo" />
+          <h2 class="title">RETAIL DISPLAYS AND KITS</h2>
+        </div>
+      </div>
+    </section>
+    <section class="bottom-section">
+      <div>
+        <p class="carousel-title">FEATURED PRODUCTS</p>
+      </div>
+      <div class="carousel">
+        <div class="glide">
+          <div class="glide__arrows" data-glide-el="controls">
+            <button class="glide__arrow glide__arrow--left" data-glide-dir="<">
+              <i class="fas fa-chevron-left"></i>
+            </button>
+            <button class="glide__arrow glide__arrow--right" data-glide-dir=">">
+              <i class="fas fa-chevron-right"></i>
+            </button>
+          </div>
+          <div class="glide__track" data-glide-el="track">
+            <div class="glide__slides">
+              <div class="card glide__slide">
+                <img
+                  src="img/carousel-1.png"
+                  alt="Product 1"
+                  class="product-photo"
+                />
+                <p class="description">EMBROIDERY STABILIZER</p>
+              </div>
+              <div class="card glide__slide">
+                <img
+                  src="img/carousel-2.png"
+                  alt="Product 2"
+                  class="product-photo"
+                />
+                <p class="description">CUBBIE GREY ELEPHANT</p>
+              </div>
+              <div class="card glide__slide">
+                <img
+                  src="img/carousel-3.png"
+                  alt="Product 3"
+                  class="product-photo"
+                />
+                <p class="description">KIMBERBELL CUP OF CHEER</p>
+              </div>
+              <div class="card glide__slide">
+                <img
+                  src="img/carousel-4.png"
+                  alt="Product 4"
+                  class="product-photo"
+                />
+                <p class="description">KIMBERBELL TWO SCOOPS</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
